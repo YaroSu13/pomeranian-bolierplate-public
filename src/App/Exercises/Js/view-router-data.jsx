@@ -11,6 +11,9 @@ import { blockRouterMetaData as blockrouterDataJsArrayMethodsExercise } from './
 import { blockRouterMetaData as blockRouterMetaDataJsFunctionBasics} from './JsFunctionBasics/router-data';
 import { blockRouterMetaData as blockRouterMetaDataHoisting } from './Hoisting/router-data';
 import { blockRouterMetaData as blockRouterMetaDataBlock22WarmUp } from './Blok22WarmUp/router-data';
+import { blockRouterMetaData as blockRouterMetaDataSetTimeout } from './SetTimeout/router-data';
+import { blockRouterMetaData as blockRouterMetaDataSlidingBaner } from './SlidingBaner/router-data';
+import { blockRouterMetaData as blockRouterMetaDataJsAnimation } from './JsAnimation/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaDataJsVariables1,
@@ -24,5 +27,8 @@ export const blockRouterMetaData = [
   blockRouterMetaDataJsFunctionBasics,
   blockRouterMetaDataHoisting,
   blockRouterMetaDataBlock22WarmUp,
+  blockRouterMetaDataSetTimeout,
+  blockRouterMetaDataSlidingBaner,
+  blockRouterMetaDataJsAnimation
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);

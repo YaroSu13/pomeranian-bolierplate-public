@@ -15,9 +15,7 @@ export const Blok22WarmUp = () => {
       console.log(index, imie.charAt(index).toUpperCase());
       const litera = imie.charAt(index).toUpperCase();
       wagi.find((value) => value.letter === litera);
-      if(found){
-        score = score + found.score;
-      }
+     
       // score = score + imie.charAt(index);
     };
     return score;
