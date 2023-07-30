@@ -14,6 +14,7 @@ import { blockRouterMetaData as blockRouterMetaDataBlock22WarmUp } from './Blok2
 import { blockRouterMetaData as blockRouterMetaDataSetTimeout } from './SetTimeout/router-data';
 import { blockRouterMetaData as blockRouterMetaDataSlidingBaner } from './SlidingBaner/router-data';
 import { blockRouterMetaData as blockRouterMetaDataJsAnimation } from './JsAnimation/router-data';
+import { blockRouterMetaData as blockRouterMetaDataHitTheMoleGame } from './HitTheMoleGame/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaDataJsVariables1,
@@ -29,6 +30,7 @@ export const blockRouterMetaData = [
   blockRouterMetaDataBlock22WarmUp,
   blockRouterMetaDataSetTimeout,
   blockRouterMetaDataSlidingBaner,
-  blockRouterMetaDataJsAnimation
+  blockRouterMetaDataJsAnimation,
+  blockRouterMetaDataHitTheMoleGame
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);

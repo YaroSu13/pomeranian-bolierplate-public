@@ -1,0 +1,11 @@
+.game-time, .moles-no, .control-buttons{
+    display:flex;
+    gap: 24px;
+    margin-bottom: 38px;
+    justify-content: flex-start;
+}
+
+.mole-warning{
+    color: red;
+    font-size: 2rem;
+}

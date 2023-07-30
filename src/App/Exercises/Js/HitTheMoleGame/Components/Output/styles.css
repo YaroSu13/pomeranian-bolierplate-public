@@ -1,0 +1,18 @@
+.mole-output{
+    display: flex;
+width: 163px;
+border-radius: 8px;
+border: 1px solid var(--gray-200, #EBEBEB);
+background: var(--gray-200, #EBEBEB);
+display: flex;
+height: 56px;
+padding: 20px 36px;
+justify-content: center;
+align-items: center;
+color: #000;
+text-align: center;
+font-size: 1.37rem;
+font-weight: 500;
+line-height: 1.9rem;
+text-transform: uppercase;
+}
